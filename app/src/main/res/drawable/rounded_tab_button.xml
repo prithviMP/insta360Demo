@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Selected state -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#00A0E9" /> <!-- Highlight color for selected state -->
+            <corners android:radius="12dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
 
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#333333" /> <!-- Default background color -->
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
 </selector>

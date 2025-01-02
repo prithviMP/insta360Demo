@@ -6,8 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.arashivision.insta360.basemedia.model.CameraFile;
 import com.arashivision.sdk.demo.R;
+import com.arashivision.sdk.demo.model.CameraFile; // Use your custom CameraFile
 import com.arashivision.sdk.demo.widget.CameraFileItemView;
 
 import java.util.List;

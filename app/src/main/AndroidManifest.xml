@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arashivision.sdk.demo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
@@ -26,24 +25,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+
+        <!-- Set DashboardActivity as the launcher activity -->
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <intent-filter>
-                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-                android:resource="@xml/device_filter" />
         </activity>
+
+<!--        <activity-->
+<!--            android:name=".activity.MainActivity"-->
+<!--            android:exported="true"-->
+<!--            android:screenOrientation="portrait">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />-->
+<!--            </intent-filter>-->
+<!--            <meta-data-->
+<!--                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"-->
+<!--                android:resource="@xml/device_filter" />-->
+<!--        </activity>-->
 
         <activity
             android:name=".activity.BleActivity"
@@ -96,6 +100,13 @@
             android:name=".activity.FwUpgradeActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CustomDemoActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.BluetoothScannerActivity" />
+        <activity android:name=".activity.DeviceListActivity" />
+        <activity android:name=".activity.MediaFilesActivity" />
     </application>
 
 </manifest>

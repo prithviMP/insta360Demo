@@ -45,7 +45,6 @@
     <string name="ble_prompt_permission">Compatible adaptation: Some devices need to be granted Location permission and GPS Provider is enabled to scan Bluetooth, please deal with it according to product adaptation requirements.\n\nNote: Do not rescan frequently in a short period of time. The Android system has a limit of 5 scans within 30s. If scan too frequently, it may be started successfully but the device cannot be searched.</string>
     <string name="ble_state_start_scan">Start scan</string>
     <string name="ble_state_start_failed">Scan failed</string>
-    <string name="ble_state_scanning">Scanning...</string>
     <string name="ble_state_scan_finish">Scan finished</string>
     <string name="ble_state_connecting">Camera connecting</string>
 
@@ -254,7 +253,7 @@
     <string name="play_toast_not_hdr">This is not HDR photo</string>
     <string name="play_toast_not_pure_shot">This is not PureShot photo</string>
     <string name="play_toast_load_finish">Load finish</string>
-    <string name="play_toast_fail_desc">onFail(%d)  %s</string>
+    <string name="play_toast_fail_desc">Error: %1$s, Code: %2$d</string>
     <string name="export_dialog_msg_exporting">Exporting...</string>
     <string name="export_dialog_msg_export_success">Export successful.\nSave directory: %s</string>
     <string name="export_dialog_msg_export_failed">Export failed(%d)</string>
@@ -267,6 +266,7 @@
     <string name="export_dialog_msg_pure_shot_stitch_error">PureShot Failed  %d</string>
     <string name="export_dialog_stop">Stop</string>
     <string name="export_dialog_ok">OK</string>
+
 
     <!-- Firmware Upgrade Activity -->
     <string name="fw_toolbar_title">Firmware upgrade</string>
@@ -281,4 +281,10 @@
     <string name="fw_toast_choose_file">Please select the firmware file to upload first</string>
     <string name="setting_filetype">FileType</string>
     <string name="main_camera_activate">Activate the camera and sync to the server</string>
+    <string name="ble_state_scanning">Scanning...</string>
+    <string name="scan">Scan</string>
+    <string name="settings">Settings</string>
+    <string name="file_type_icon">File type icon</string>
+    <string name="back">Back</string>
 </resources>
+

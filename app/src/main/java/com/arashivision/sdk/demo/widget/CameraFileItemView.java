@@ -4,8 +4,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.arashivision.insta360.basemedia.model.CameraFile;
 import com.arashivision.sdk.demo.R;
+import com.arashivision.sdk.demo.model.CameraFile;
 
 public class CameraFileItemView {
     private TextView mTvFileName;

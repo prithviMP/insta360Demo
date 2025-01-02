@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Button;
+
 
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -37,6 +39,13 @@ public class MainActivity extends BaseObserveCameraActivity {
         setContentView(R.layout.activity_main);
         setTitle(R.string.main_toolbar_title);
         tvWifiInfo = findViewById(R.id.tv_wifi_info);
+        
+        
+        Button openDashboardButton = findViewById(R.id.btn_open_dashboard);
+        openDashboardButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, CustomDemoActivity.class);
+            startActivity(intent);
+        });
 
         checkStoragePermission();
         if (InstaCameraManager.getInstance().getCameraConnectedType() != InstaCameraManager.CONNECT_TYPE_NONE) {
@@ -91,7 +100,7 @@ public class MainActivity extends BaseObserveCameraActivity {
         });
 
         findViewById(R.id.btn_list_camera_file).setOnClickListener(v -> {
-            startActivity(new Intent(MainActivity.this, CameraFilesActivity.class));
+            startActivity(new Intent(MainActivity.this, MediaFilesActivity.class));
         });
 
         findViewById(R.id.btn_settings).setOnClickListener(v -> {

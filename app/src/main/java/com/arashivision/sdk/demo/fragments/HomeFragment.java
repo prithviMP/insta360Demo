@@ -1,4 +1,4 @@
-package com.arashivision.sdk.demo.fragment;
+package com.arashivision.sdk.demo.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

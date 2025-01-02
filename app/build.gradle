@@ -41,6 +41,9 @@ android {
             dirs 'libs'
         }
     }
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -65,4 +68,7 @@ dependencies {
     implementation('com.arashivision.sdk:sdkmedia:1.7.1') {
         exclude group: 'com.lzy.net', module: 'okgo'
     }
+
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }

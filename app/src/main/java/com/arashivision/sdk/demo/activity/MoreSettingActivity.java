@@ -26,7 +26,7 @@ import androidx.annotation.Nullable;
 
 import java.util.Arrays;
 
-public class MoreSettingActivity extends BaseObserveCameraActivity {
+public  class MoreSettingActivity extends BaseObserveCameraActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
