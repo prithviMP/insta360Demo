@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0A0A">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pre_image_welcome"
+            android:layout_width="150dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/welcome_preimage"/>
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/avatar"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/welcome_back"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/welcome_back"/>
+
+    <ImageView
+        android:id="@+id/username"
+        android:layout_width="168dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/username"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/myscans"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/myscans"/>
+
+        <ImageView
+            android:id="@+id/saved"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@id/myscans"
+            android:src="@drawable/saved"/>
+
+        <ImageView
+            android:id="@+id/shared"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@id/saved"
+            android:src="@drawable/shared_with_me"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/construction"
+            android:layout_width="162dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+
+            android:src="@drawable/construction"/>
+
+        <ImageView
+            android:id="@+id/office_remodelling_1"
+            android:layout_width="162dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/office_remodelling_1"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/office_remodelling_2"
+            android:layout_width="162dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/office_remodelling_2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" >
+
+        <ImageView
+            android:id="@+id/connect_insta"
+            android:layout_width="148dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/connect_insta"/>
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
